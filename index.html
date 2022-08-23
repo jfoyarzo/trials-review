@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <h1 id="title">Survey Form</h1>
+    <p id="description">A simple survey form</p>
+<div id="form">
+    <form action="" id="survey-form">
+      <label for="name" id="name-label">Enter your name</label>
+      <input
+        required
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Full name"
+      />
+
+      <label for="email" id="email-label">Enter your E-mail</label>
+      <input
+        required
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+        type="email"
+        name="email"
+        id="email"
+        placeholder="adress@something.com"
+      />
+
+      <label for="number" id="number-label">Enter a number</label>
+      <input
+        type="text"
+        name="number"
+        id="number"
+        min="1"
+        max="10"
+        required
+        pattern="\d"
+        placeholder="1-10"
+      />
+
+      <label for="dropdown">Select your gender</label>
+      <select name="gender" id="dropdown">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+
+      <p>Select your language:</p>
+      <input type="radio" id="Kurdish" name="fav_language" value="Kurdish" />
+      <label for="Kurdish">Kurdish</label><br />
+      <input type="radio" id="Spanish" name="fav_language" value="Spanish" />
+      <label for="Spanish">Spanish</label><br />
+      <input type="radio" id="English" name="fav_language" value="English" />
+      <label for="English">English</label>
+
+      <p>How many languages do you know:</p>
+      <input type="checkbox" id="Kurdish2" name="Kurdish2" value="Kurdish2" />
+      <label for="Kurdish2"> Kurdish</label><br />
+      <input type="checkbox" id="Spanish2" name="Spanish2" value="Spanish2" />
+      <label for="Spanish2"> Spanish</label><br />
+      <input type="checkbox" id="English2" name="English2" value="English2" />
+      <label for="English2"> English</label><br />
+
+      <label for="info">Write about yorself:</label>
+
+      <textarea id="info" name="info" rows="4" cols="50"> </textarea>
+
+      <div>
+        <button type="submit" id="submit">submit</button>
+      </div>
+    </form>
+  </div>
+  
+    <script src="js/index.js"></script>
+  </body>
+</html>
