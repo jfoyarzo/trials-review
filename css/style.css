@@ -1,0 +1,21 @@
+body{
+    background-color: darkblue;
+
+}
+#description{
+    text-align: center;
+    color: wheat;
+}
+
+#title {
+    text-align: center;
+    color: wheat;
+}
+
+#form {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+    padding: 50px;
+    
+}
